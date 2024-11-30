@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>Document</title>
+    <style>
+        * {
+               margin: 0; 
+               padding: 0;
+               text-decoration:none;
+               font-family:monospace,"Times New Roman";
+           }
+
+           body {
+            height: 100vh;
+           }
+
+           header,footer {
+              height: 10%;
+              background-color: #8d0994;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #fff;
+              font-size: 3vh;
+           }
+           
+           div{
+                height: 80%;
+                display: flex;
+                justify-content:space-between;
+           }
+           div section{
+            background: color #e54d26; 
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 80%;
+           }
+           div section table {
+            border-spacing: 10px 0;
+           }
+           div section table caption{
+            margin-bottom: 30px;
+            font-size: 2Vw;
+            font-weight: bold;
+            color: #8d0994;
+           }
+           
+           div section table,th,td {
+            
+            text-align: center;
+            /* border-collapse: collapse;  */
+            border-radius: 15px;
+           
+           }
+           div section table th {
+            
+           
+                background-color: #8d0994;
+                color: #fff;
+           }
+           div section table tr:nth-of-type(even)
+           {
+            background-color: #eff7fa;
+           }
+           div section table th ,td {
+                padding: 0.75vw 1.5vw;
+                font-size: 1.25vw;
+
+           }
+
+           div nav {
+            background-color: #eff7fa;
+    
+            width: 20%;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+           }
+           div nav a{
+             background-color: #8d0994;
+             font-size: 1.75vw;
+             padding: 1.5vh;
+             text-align: center;
+             border-radius: 25vh;
+             color: #fff;
+             font-weight: bold;
+
+           }
+           div nav a:hover{
+            box-shadow: 0 0 0 0.25rem#ff315050;
+           }
+           @media(max-width:600px){
+            header h1{
+                font-size: 25px;
+            }
+            
+            footer h3{
+                font-size: 18px;
+            }
+
+           }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amna Ismail Project</h1>
+    </header>
+<div>
+    <section>
+    <table>
+        <caption>The Most Famous Programming Language and Their Uese</caption>
+        <thead>
+            <tr>
+                <th> لغة البرمجة</th>
+    
+                <th> الاستخدامات</th>
+    
+                <th> أشهر المشاريع عليها</th>
+            </tr>
+        </thead>
+         <tbody>
+             <tr>
+                <td> python</td>
+
+                <td> تطوير الويب , تحليل البيايات ,الذكاء الاصطناعى</td>
+
+                <td> Django, Flask, TensorFlow, Pandas</td>
+            </tr> 
+            <tr>
+                <td> Java script</td>
+    
+                <td>تطوير الويب ,تطبيقات الهاتف المحمول </td>
+    
+                <td> React , Angular , Node.js</td>
+            </tr>
+            <tr>
+                <td> Java</td>
+    
+                <td>تطوير التطبيقات , تطبيقات المؤسسات  </td>
+    
+                <td> Android , Spring Framework</td>
+            </tr>
+            <tr>
+                <td> C#</td>
+    
+                <td> تطوير الألعاب , تطبيقات سطح المكتب </td>
+    
+                <td> Unity , NET Framework </td>
+            </tr>
+            <tr>
+                <td> PHP </td>
+    
+                <td> تطوير الويب </td>
+    
+                <td> Wordpress , Laravel</td>
+            </tr>
+            <tr>
+                <td> C++</td>
+    
+                <td>  تطوير الأنظمة , الألعاب </td>
+    
+                <td> Unreal Engine , Qt</td>
+            </tr>
+            <tr>
+                <td> Swift</td>
+    
+                <td> تطوير تطبيقات IOS </td>
+    
+                <td> iOS Apps مثل Instagram و Airbnb</td>
+            </tr>
+        </tbody>
+        
+        
+
+    </table>
+    </section>
+    <nav>
+        
+        <a href="index.html"> Home Page</a>
+        
+    </nav>
+</div>
+ <footer>
+    <h3> Developed And Designed By Amna </h3>
+ </footer>
+</body>
+</html>

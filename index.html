@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>Document</title>
+    <style>
+        * {
+               margin: 0; 
+               padding: 0;
+               text-decoration: none;
+               font-family: monospace, "Times New Roman";
+        }
+        body {
+            height: 100vh;
+        }
+
+           header,footer {
+              height: 10%;
+              background-color: #8d0994;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #fff;
+              font-size: 3vh;
+           }
+           
+           div{
+                height: 80%;
+                display: flex;
+                justify-content: space-between;
+           }
+
+           div section {
+                
+                width: 80%;
+           }
+           div section h3{
+
+                    text-align: center;
+                    margin: 50px auto 10px auto;
+                    font-size: 1.7vw;
+                    color: #fff;
+                    background-color: #8d0994;
+                    width: 30vw;
+                    padding: 7.5px 20px;
+                    border-radius: 25vh;
+           }
+
+           div section p{
+
+                    text-align: center;
+                    margin: 10px 50px 40px 50px;
+                    font-size: 1.4vw;
+                   
+
+           }
+
+           div section article{
+                display: flex;
+                align-items: center;
+               justify-content:center;
+           }
+
+           div section img{
+            width: 30vh;
+            height: 30vh;
+            border-radius: 15px;
+            margin: 0 3vw;
+            transition: 0.1s all linear;
+           }
+
+           div section img:hover{
+            opacity: 0.75;
+            scale: 0.9;
+            box-shadow: 0 0 0 0.35rem  #8d099450;
+
+           }
+
+           div nav {
+            background-color: #eff7fa;
+            width: 20%;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+           }
+           div nav a{
+                background-color: #8d0994;
+                font-size:1.5vw;
+                padding: 1.5vh;
+                text-align: center;
+                border-radius: 25vh;
+                color: #fff;
+                font-weight: bold;
+
+           }
+           div nav a:hover{
+            box-shadow: 0 0 0 0.25rem#ff315050;
+           }
+
+           @media(max-width:600px){
+            header h1{
+                font-size: 25px;
+            }
+            div section {
+                 width: 70%;
+            }
+            div section img{
+                width: 25vw !important;
+                height: 25vw !important;
+            }
+            div section h3{
+                margin-top: 25vh;
+            }
+            div nav{
+                width: 30%;
+            }
+            footer h3{
+                font-size: 18px;
+            }
+
+           }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Amna Ismail Project</h1>
+    </header>
+<div>
+
+    <section>
+     
+        <h3>About programming languages</h3>
+        <p> Programming languages are tools used to devolop software, websites, and other digital solutions.
+                 HTML is a markup language that structures content for the web, and CSS adds styles to make it 
+                 visually appealing.
+                </p>
+
+        <article>
+            <a href="https://WWW.W3schools.com/html"> 
+            <img src="html5.jpg" alt="تعذر تحميل الصورة">
+            </a>
+
+            <a href="https://WWW.W3schools.com/css">
+                <img src="css3.jpg" alt="تعذر تحميل الصورة">
+            </a>
+
+        </article>
+    </section>
+
+    <nav>
+        <a href="page 1.html"> Information Table</a>
+        <a href="page 2-.html"> Contact Form</a>
+        
+    </nav>
+</div>
+ <footer>
+    <h3> Developed And Designed By Amna </h3>
+ </footer>
+</body>
+</html>
